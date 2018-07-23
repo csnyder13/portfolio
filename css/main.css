@@ -24,23 +24,10 @@ h3 {
     top: 60%;
 }
 
-h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-}
-
-p {
+h4, p, ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     color: #fff;
-}
-
-ul {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #fff;  
 }
 
 .full-width {
@@ -79,7 +66,8 @@ header nav {
 }
 header nav ul {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    list-style: none;
 }
 header nav ul li {
     font-family: 'Montserrat', sans-serif;
@@ -90,10 +78,6 @@ header nav ul li {
 header nav ul li a{
     text-decoration: none;
     color: #66ff66;
-}
-
-.nav ul {
-    list-style: none;
 }
 
 /***** Video Styles *****/
